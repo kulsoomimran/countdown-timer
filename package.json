@@ -1,0 +1,24 @@
+{
+  "name": "ki-19016-countdown-timer",
+  "version": "1.0.1",
+  "description": "countdown timer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "date-fns": "^3.6.0",
+    "inquirer": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.2.16"
+  }
+}
